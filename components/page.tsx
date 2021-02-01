@@ -62,6 +62,7 @@ export default function Page({ meta, children, fullViewport = false }: Props) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        <meta name="google-site-verification" content="UmgIX1j0uoml8u0zJw7Pd9q9E9yjg88gEwhlBdVZfMk" />
         {image && (
           <meta
             property="og:image"
