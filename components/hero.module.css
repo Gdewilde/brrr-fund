@@ -94,11 +94,12 @@
   transition: background-color 0.2s ease;
   padding: 0 var(--space-4x);
   height: 55px;
-  width: 100px;
-  max-width: 100px;
+  width: 250px;
+  max-width: auto;
   margin-right: var(--space-4x);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
 }
+

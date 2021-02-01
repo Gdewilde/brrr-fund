@@ -39,14 +39,21 @@ export default function Hero() {
         The largest decentralized <s>hedge fund</s> in the world. <a href='https://twitter.com/chamath/status/1355580731980869637'>Don't take our word for it.</a>
       </h2>
       <br/>
+      <div style={{ margin: '0 auto' }}>
+        <blockquote className="twitter-tweet"><p lang="en" dir="ltr">r/wallstreetbets is now the largest hedge fund in the world. <br/><br/>Excepts it’s completely decentralized and entirely democratic.</p>&mdash; Chamath Palihapitiya (@chamath) <a href="https://twitter.com/chamath/status/1355580731980869637?ref_src=twsrc%5Etfw">January 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
       <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
         <p>XXXX Time till markets open</p>
         <div className={styles['description-separator']} />
         <p>
-          <strong>Always online</strong>
+          <strong>7.6M Investors</strong>
+        </p>
+        <div className={styles['description-separator']} />
+        <p>
+          <strong>∞ AUM</strong>
         </p>
       </div>
-      <a className={styles.button} href='https://www.reddit.com/r/wallstreetbets/'>Join us</a>
+      <a className={styles.button} href='https://www.reddit.com/r/wallstreetbets/'>Join us @ r/wallstreetbets</a>
     </div>
   );
 }

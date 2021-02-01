@@ -162,3 +162,7 @@ svg circle {
   height: auto;
   clip: auto;
 }
+
+.twitter-tweet {
+  margin: 0 auto 40px !important;
+}
