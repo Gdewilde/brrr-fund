@@ -16,7 +16,7 @@
 
 export const SITE_URL = 'https://brrrfund.money';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'vercel';
+export const TWITTER_USER_NAME = 'wsbmod';
 export const BRAND_NAME = 'BRRR Fund';
 export const SITE_NAME_MULTILINE = ['BRRR', 'Fund'];
 export const SITE_NAME = 'BRRR Fund';

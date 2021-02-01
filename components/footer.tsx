@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
         <div className={styles['footer-copyright']}>
           Copyright © {`${new Date().getFullYear()} `} {COPYRIGHT_HOLDER || `${SITE_NAME}.`} All
-          rights reserved.
+          rights reserved. Created by <a href='https://twitter.com/gertjanwilde'>GJ</a>
         </div>
         <div className={styles['footer-center-group']}>
           <p className={styles['footer-paragraph']}>
