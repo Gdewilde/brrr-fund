@@ -15,7 +15,7 @@
  */
 
 import VercelLogo from '@components/icons/icon-platform';
-import { CODE_OF_CONDUCT, COPYRIGHT_HOLDER, LEGAL_URL, REPO, SITE_NAME } from '@lib/constants';
+import { COPYRIGHT_HOLDER, LEGAL_URL, REPO, SITE_NAME } from '@lib/constants';
 import cn from 'classnames';
 import styles from './footer.module.css';
 
@@ -58,14 +58,7 @@ export default function Footer() {
           </p>
           <div className={styles['footer-separator']} />
           <p className={styles['footer-paragraph']}>
-            <a
-              href={CODE_OF_CONDUCT}
-              className={styles['footer-link']}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code of Conduct
-            </a>
+            The data on this website is for your information only. It does not constitute investment advice, or advice on tax or legal matters.
           </p>
           {LEGAL_URL && (
             <>
