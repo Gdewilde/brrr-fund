@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-import { useRouter } from 'next/router';
-import { SkipNavContent } from '@reach/skip-nav';
-
-import Page from '@components/page';
 import ConfContent from '@components/index';
+import Page from '@components/page';
 import { META_DESCRIPTION } from '@lib/constants';
+import { SkipNavContent } from '@reach/skip-nav';
+import { useRouter } from 'next/router';
+
 
 export default function Conf() {
   const { query } = useRouter();
   const meta = {
-    title: 'Demo - Virtual Event Starter Kit',
+    title: 'BRRR Fund - The largest decentralized hedge fund in the world.',
     description: META_DESCRIPTION
   };
   const ticketNumber = query.ticketNumber?.toString();

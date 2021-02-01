@@ -15,13 +15,51 @@
  */
 
 .background {
-  background: #000;
+  background-image: url('public/ny-brrr-banner.png');
   color: #fff;
   min-height: 100vh;
   min-height: var(--100vh);
   display: flex;
   flex-direction: column;
 }
+
+.button {
+  border-radius: var(--space-2x);
+  border: 1px solid #fff;
+  color: #000;
+  background: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: var(--text-md);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  outline: none;
+  transition: background-color 0.2s ease;
+  padding: 0 var(--space-4x);
+  height: 55px;
+  width: 100%;
+  max-width: 100%;
+  margin-right: var(--space-4x);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .background:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.6;
+  background-image: url('https://cdn1.img.sputniknews.com/img/07e5/01/1e/1081932778_0:0:1000:542_1000x0_80_0_1_e8009ed4012ac669f7d406d418a11365.png.webp');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+} */
 
 .page {
   display: flex;

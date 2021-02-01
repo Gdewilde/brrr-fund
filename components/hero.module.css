@@ -16,6 +16,7 @@
 
 .wrapper {
   margin-top: var(--space-12x);
+  text-align: center;
 }
 
 .hero {
@@ -77,4 +78,27 @@
     max-width: 531px;
     margin: 40px auto;
   }
+}
+
+.button {
+  border-radius: var(--space-2x);
+  border: 1px solid #fff;
+  color: #000;
+  background: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: var(--text-md);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  outline: none;
+  transition: background-color 0.2s ease;
+  padding: 0 var(--space-4x);
+  height: 55px;
+  width: 100px;
+  max-width: 100px;
+  margin-right: var(--space-4x);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }

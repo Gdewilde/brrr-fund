@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
+import { SITE_DESCRIPTION } from '@lib/constants';
 import cn from 'classnames';
-import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
-import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
+import styleUtils from './utils.module.css';
 
 export default function Hero() {
   return (
@@ -33,26 +33,20 @@ export default function Hero() {
         {SITE_DESCRIPTION}
       </h2>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-        The first {BRAND_NAME}
-        <br className={styleUtils['show-on-desktop']} /> global user conference
+        BRRR Fund
       </h1>
-      <h2
-        className={cn(
-          styleUtils.appear,
-          styleUtils['appear-third'],
-          styleUtils['show-on-tablet'],
-          styles.description
-        )}
-      >
-        {SITE_DESCRIPTION}
+      <h2>
+        The largest decentralized <s>hedge fund</s> in the world. <a href='https://twitter.com/chamath/status/1355580731980869637'>Don't take our word for it.</a>
       </h2>
+      <br/>
       <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
-        <p>{DATE}</p>
+        <p>XXXX Time till markets open</p>
         <div className={styles['description-separator']} />
         <p>
-          <strong>Online</strong>
+          <strong>Always online</strong>
         </p>
       </div>
+      <a className={styles.button} href='https://www.reddit.com/r/wallstreetbets/'>Join us</a>
     </div>
   );
 }

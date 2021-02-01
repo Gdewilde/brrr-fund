@@ -14,16 +14,15 @@
  * limitations under the License.
  */
 
-export const SITE_URL = 'https://demo.vercel.events';
+export const SITE_URL = 'https://brrrfund.money';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'ACME';
-export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
-export const SITE_NAME = 'ACME Conf';
+export const BRAND_NAME = 'BRRR Fund';
+export const SITE_NAME_MULTILINE = ['BRRR', 'Fund'];
+export const SITE_NAME = 'BRRR Fund';
 export const META_DESCRIPTION =
-  'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
-export const SITE_DESCRIPTION =
-  'An interactive online experience by the community, free for everyone.';
+  'The largest decentralized hedge fund in the world. Bringing the decentralized web to Wall Street';
+export const SITE_DESCRIPTION = 'Bringing the decentralized web to Wall Street. ';
 export const DATE = 'October 27, 2020';
 export const SHORT_DATE = 'Oct 27 - 9:00am PST';
 export const FULL_DATE = 'Oct 27th 9am Pacific Time (GMT-7)';
@@ -35,42 +34,21 @@ export const COOKIE = 'user-id';
 export const LEGAL_URL = process.env.NEXT_PUBLIC_PRIVACY_POLICY_URL;
 export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
 
-export const CODE_OF_CONDUCT =
-  'https://www.notion.so/vercel/Code-of-Conduct-Example-7ddd8d0e9c354bb597a0faed87310a78';
-export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
+export const CODE_OF_CONDUCT = '';
+export const REPO = 'https://github.com/Gdewilde/brrr-fund';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Stage A',
-    route: '/stage/a'
+    name: 'Investments (soon)',
+    route: '/'
   },
   {
-    name: 'Stage C',
-    route: '/stage/c'
+    name: 'Team (soon)',
+    route: '/'
   },
   {
-    name: 'Stage M',
-    route: '/stage/m'
-  },
-  {
-    name: 'Stage E',
-    route: '/stage/e'
-  },
-  {
-    name: 'Schedule',
-    route: '/schedule'
-  },
-  {
-    name: 'Speakers',
-    route: '/speakers'
-  },
-  {
-    name: 'Expo',
-    route: '/expo'
-  },
-  {
-    name: 'Jobs',
-    route: '/jobs'
+    name: 'Jobs (kidding)',
+    route: '/'
   }
 ];
 
