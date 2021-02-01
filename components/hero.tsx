@@ -33,10 +33,10 @@ export default function Hero() {
         {SITE_DESCRIPTION}
       </h2>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-        BRRR Fund
+        BRRR Fund 🚀
       </h1>
       <h2>
-        The largest decentralized <s>hedge fund</s> in the world. <a href='https://twitter.com/chamath/status/1355580731980869637'>Don't take our word for it.</a>
+        r/wallstreetbets is the largest decentralized <s>hedge fund</s> in the world. <a href='https://twitter.com/chamath/status/1355580731980869637'>Don't take our word for it.</a>
       </h2>
       <br/>
       <div style={{ margin: '0 auto' }}>
