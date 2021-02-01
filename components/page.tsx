@@ -69,6 +69,18 @@ export default function Page({ meta, children, fullViewport = false }: Props) {
             content={image.startsWith('https://') ? image : `${SITE_URL}${image}`}
           />
         )}
+        <script
+          type='text/javascript'
+          dangerouslySetInnerHTML={{
+            __html: ` (function (w,n,pid) {
+              w[n]=w[n] || (function () {
+                d=document,h=d.getElementsByTagName('head')[0],s=d.createElement('script'),eq=[];
+                s.src="https://cdn.gingertag.com/gt.js?pid="+pid;s.type='text/javascript';s.async=1;h.appendChild(s);
+                return {event:function(){w[n].eq.push(arguments);},eq};
+              }());
+            })(window,'gingertag',535564642);`
+          }}
+         />
       </Head>
       {children}
     </div>
